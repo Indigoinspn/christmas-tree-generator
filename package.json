@@ -1,0 +1,16 @@
+{
+  "name": "christmas-tree-generator",
+  "version": "1.0.0",
+  "description": "Generates an ASCII Christmas tree to a text file",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
