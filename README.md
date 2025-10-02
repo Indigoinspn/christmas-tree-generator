@@ -49,6 +49,7 @@ Tree Types:
 Example:
 
 ```bash
+Happy New Year!!!🎅
    ^
   *~*
  *'o'*
@@ -67,6 +68,7 @@ Structure:
 Example:
 
 ```bash
+Happy New Year!!!🎅
          W
 
          *
