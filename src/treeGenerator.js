@@ -120,12 +120,12 @@ function generateTree(input) {
   //Small tree
   if (layersQuantity <= 5) {
     treePicture = treeLayers.join('\n'); // Join all lines with newline
-    return MESSAGES.CONGRATS_MSG + treePicture;
+    return treePicture;
   }
   //Big tree
   //Adding new line between layers
   treePicture = treeLayers.join('\n\n'); // Join all lines with newline
-  return MESSAGES.CONGRATS_MSG + treePicture;
+  return treePicture;
 }
 
 module.exports = { generateTree };
