@@ -29,13 +29,13 @@ Valid Input
 
 Invalid Input
 
-- Non-numeric strings ("abc", "🎄") → message: 'Invalid size format.'
-- Numbers ≤ 0 → message: 'This size is not available in the assortment. 🤷'
+- > Non-numeric strings ("abc", "🎄") → message: 'Invalid size format.'
+- > Numbers ≤ 0 → message: 'This size is not available in the assortment. 🤷'
 
 Values outside the valid range:
 
-- < 4 → message: 'The tree is too small... come back next winter 😊'
-- > 20 → message: 'You are too late! The tree is too big to fit in your house! 🏠'
+- > '< 4' → message: 'The tree is too small... come back next winter 😊'
+- > '> 20' → message: 'You are too late! The tree is too big to fit in your house! 🏠'
 
 Tree Types:
 
